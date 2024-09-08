@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 //to use in the postman JSON
-app.use(express.json());
+gitapp.use(express.json());
 
 //to use in the postman urlencoded
 app.use(express.urlencoded({extended:true}));
